@@ -28,8 +28,8 @@ w = np.array([2,2,0,1])
 
 print("문제 (a)")
 print("Norm of x = ", cal_norm(x))
-print("Norm of y = ", cal_norm(x))
-print("Norm of z = ", cal_norm(x))
+print("Norm of y = ", cal_norm(y))
+print("Norm of z = ", cal_norm(z))
 print("\n")
 
 print("문제 (b)")
