@@ -5,7 +5,7 @@ def cal_norm(vec1):
     return norm_vec
 
 def cal_innerproduct(vec1, vec2):
-    innerprod_vecs = np.sum(vec1, vec2)
+    innerprod_vecs = np.sum(vec1 * vec2)
     return innerprod_vecs
 
 def cal_hamming_dist(vec1, vec2):
